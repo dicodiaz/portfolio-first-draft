@@ -130,3 +130,35 @@ li {
 .linkicons li {
   padding: 0 10px;
 }
+
+button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  display: none;
+}
+
+button:enabled {
+  color: #ffffff;
+  background: #f55800;
+}
+
+button:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
+}
