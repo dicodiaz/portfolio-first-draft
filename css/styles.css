@@ -23,17 +23,11 @@ li {
 
 .header {
   background: #3c3a39;
-  /* font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  color: #ffffff; */
   flex: 0 1 92px;
 }
 
 .navbar {
   height: 100%;
-  /* border: 5px solid blue; */
   display: flex;
   flex-direction: column;
 }
@@ -42,20 +36,18 @@ li {
   flex: 1;
   display: flex;
   align-items: center;
-  /* border: 5px solid red; */
 }
 
 .item {
-  height: fit-content;
-  /* border: 5px solid goldenrod; */
+  height: min-content;
 }
 
 .item1,
 .item5 {
   flex-grow: 1;
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
-  color: #ffffff;
+  color: #fff;
   padding-left: 24px;
 }
 
@@ -105,7 +97,7 @@ li {
 }
 
 .title {
-  font-family: Crete Round;
+  font-family: Crete Round, Arial, sans-serif;
   font-weight: normal;
   font-size: 56px;
   line-height: 64px;
@@ -114,7 +106,7 @@ li {
 }
 
 .subtitle {
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -122,15 +114,15 @@ li {
 }
 
 .presentation {
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .linkicons {
-  color: #ffffff;
+  color: #fff;
   width: fit-content;
   margin-top: 16px;
 }
