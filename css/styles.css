@@ -23,7 +23,7 @@ li {
 
 .header {
   background: #3c3a39;
-  flex: 0 1 92px;
+  flex: 0 1 46px;
 }
 
 .navbar {
@@ -139,7 +139,6 @@ button {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  display: none;
 }
 
 button:enabled {
@@ -161,4 +160,8 @@ button:active {
 button:disabled {
   color: #5b5957;
   background: #f4f1f0;
+}
+
+.hidden {
+  display: none;
 }
