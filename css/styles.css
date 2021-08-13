@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  background: #3c3a39;
+  flex: 0 1 92px;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  height: min-content;
+}
+
+.item1,
+.item5 {
+  flex-grow: 1;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  color: #fff;
+  padding-left: 24px;
+}
+
+.item1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.28px;
+}
+
+.item5 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.item2,
+.item3,
+.item4 {
+  padding: 0 3px;
+}
+
+.item4 {
+  padding-right: 19px;
+}
+
+.item6 {
+  padding-right: 36px;
+}
+
+.main {
+  background: #1c1a19 url("../img/cool_style-2.svg") right bottom no-repeat;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 87%;
+}
+
+.box {
+  font-style: normal;
+  width: fit-content;
+  margin: 6px 0;
+}
+
+.title {
+  font-family: Crete Round, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.subtitle {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.presentation {
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.linkicons {
+  color: #fff;
+  width: fit-content;
+  margin-top: 16px;
+}
+
+.linkicons li {
+  padding: 0 10px;
+}
+
+button {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  display: none;
+}
+
+button:enabled {
+  color: #fff;
+  background: #f55800;
+}
+
+button:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+button:active {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
+}
