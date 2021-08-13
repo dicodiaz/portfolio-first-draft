@@ -225,7 +225,6 @@ button:disabled {
 .img2 {
   display: flex;
   justify-content: center;
-  max-height: 500px;
   margin-bottom: 18px;
 }
 
@@ -269,6 +268,7 @@ button:disabled {
   grid-gap: 24px;
   width: 87%;
   margin-top: 18px;
+  justify-content: center;
 }
 
 .project {
@@ -280,6 +280,7 @@ button:disabled {
   background-image: url("../img/projects_bg.svg");
   display: flex;
   flex-direction: column;
+  max-width: 327px;
 }
 
 .box3 {
