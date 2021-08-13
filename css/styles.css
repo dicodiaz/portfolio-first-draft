@@ -307,3 +307,46 @@ button:disabled {
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
 }
+
+/* About me */
+
+.container3 {
+  background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container4 {
+  background: url("../img/cool_style-3.svg") right bottom no-repeat;
+}
+
+.main4 {
+  width: 87%;
+  margin: auto;
+  padding-bottom: 185px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.box4{
+  margin: 24px 0;
+}
+
+.title4 {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+  margin-top: 120px;
+}
+
+.p4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
