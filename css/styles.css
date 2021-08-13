@@ -1,3 +1,5 @@
+/* Global */
+
 body {
   margin: 0;
 }
@@ -14,6 +16,8 @@ ul {
 li {
   list-style-type: none;
 }
+
+/* Toolbar & Headline */
 
 .container {
   display: flex;
@@ -139,11 +143,13 @@ button {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 12px;
 }
 
 button:enabled {
   color: #fff;
   background: #f55800;
+  border: 1px solid #ff6b00;
 }
 
 button:hover {
@@ -164,4 +170,102 @@ button:disabled {
 
 .hidden {
   display: none;
+}
+
+/* Works */
+
+.container2 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  border: 5px solid red;
+  align-items: center;
+}
+
+.title2 {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #212121;
+  width: fit-content;
+  margin-top: 120px;
+  margin-bottom: 74px;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 5px solid blue; */
+  width: 100%;
+}
+
+.box2 {
+  width: 87%;
+  margin: 6px;
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+  max-height: 500px;
+  margin-bottom: 18px;
+}
+
+.subtitle2 {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.p2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.list2 {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #091e42;
+  display: flex;
+  /* border: 5px solid gold; */
+}
+
+.list2 li {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 24px;
+  border: 5px solid green;
+  width: 87%;
+  margin-top: 18px;
+}
+
+.project {
+  border: 5px solid greenyellow;
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  );
+  height: 500px;
 }
