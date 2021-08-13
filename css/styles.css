@@ -178,8 +178,8 @@ button:disabled {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  border: 5px solid red;
   align-items: center;
+  margin-bottom: 120px;
 }
 
 .title2 {
@@ -200,7 +200,6 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 5px solid blue; */
   width: 100%;
 }
 
@@ -242,7 +241,6 @@ button:disabled {
   line-height: 20px;
   color: #091e42;
   display: flex;
-  /* border: 5px solid gold; */
 }
 
 .list2 li {
@@ -255,17 +253,57 @@ button:disabled {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 24px;
-  border: 5px solid green;
   width: 87%;
   margin-top: 18px;
 }
 
 .project {
-  border: 5px solid greenyellow;
   background: linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
   );
-  height: 500px;
+  background-image: url("../img/projects_bg.svg");
+  display: flex;
+  flex-direction: column;
+}
+
+.box3 {
+  margin: 6px 16px;
+}
+
+.title3 {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-top: 84px;
+}
+
+.p3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.list3 {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.list3 li {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
 }
