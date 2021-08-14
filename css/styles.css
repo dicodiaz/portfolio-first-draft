@@ -2,8 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 @font-face {
   font-family: "InaiMathi";
@@ -197,7 +197,7 @@ button:disabled {
 }
 
 .title2 {
-  font-family: Crete Round;
+  font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -228,8 +228,12 @@ button:disabled {
   margin-bottom: 18px;
 }
 
+.img2 img {
+  width: 45%;
+}
+
 .subtitle2 {
-  font-family: Crete Round;
+  font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -238,7 +242,7 @@ button:disabled {
 }
 
 .p2 {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -272,11 +276,12 @@ button:disabled {
 }
 
 .project {
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  );
+  /* background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ); */
   background-image: url("../img/projects_bg.svg");
   display: flex;
   flex-direction: column;
@@ -288,22 +293,22 @@ button:disabled {
 }
 
 .title3 {
-  font-family: Crete Round;
+  font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 84px;
 }
 
 .p3 {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .list3 {
@@ -312,12 +317,12 @@ button:disabled {
 }
 
 .list3 li {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
@@ -340,7 +345,7 @@ button:disabled {
   width: 87%;
   margin: auto;
   padding-bottom: 185px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #fff;
 }
 
 .box4 {
@@ -348,7 +353,7 @@ button:disabled {
 }
 
 .title4 {
-  font-family: Crete Round;
+  font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
@@ -358,7 +363,7 @@ button:disabled {
 }
 
 .p4 {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -374,13 +379,12 @@ button:disabled {
 }
 
 .title5 {
-  font-family: InaiMathi;
+  font-family: InaiMathi, Arial, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
-  color: #ffffff;
+  color: #fff;
   padding: 28px 0;
 }
 
@@ -389,12 +393,11 @@ button:disabled {
 }
 
 .items5 {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 43px;
-  letter-spacing: 0em;
-  color: #ffffff;
+  color: #fff;
   padding: 16px 0;
 }
