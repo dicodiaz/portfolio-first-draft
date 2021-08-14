@@ -207,7 +207,7 @@ button:disabled {
   border-bottom: 1px solid #212121;
   width: fit-content;
   margin-top: 120px;
-  margin-bottom: 74px;
+  margin-bottom: 62px;
 }
 
 .main2 {
@@ -218,18 +218,17 @@ button:disabled {
 }
 
 .box2 {
+  /* margin: 0 24px; */
   width: 87%;
-  margin: 6px;
+  padding: 6px 0;
 }
 
-.img2 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 18px;
+.img2{
+  padding: 18px 0;
 }
 
 .img2 img {
-  width: 45%;
+  width: 100%;
 }
 
 .subtitle2 {
@@ -239,6 +238,7 @@ button:disabled {
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
+  margin: 0;
 }
 
 .p2 {
@@ -248,6 +248,7 @@ button:disabled {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
+  margin: 0;
 }
 
 .list2 {
