@@ -1,3 +1,19 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "InaiMathi";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/InaiMathi.ttf");
+}
+
+/* Global */
+
 body {
   margin: 0;
 }
@@ -15,6 +31,8 @@ li {
   list-style-type: none;
 }
 
+/* Toolbar & Headline */
+
 .container {
   display: flex;
   height: 100vh;
@@ -23,7 +41,7 @@ li {
 
 .header {
   background: #3c3a39;
-  flex: 0 1 92px;
+  flex: 0 1 46px;
 }
 
 .navbar {
@@ -115,8 +133,9 @@ li {
 
 .presentation {
   font-family: Poppins, Arial, sans-serif;
-  font-weight: normal;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 250;
   line-height: 24px;
   color: #fff;
 }
@@ -139,12 +158,13 @@ button {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  display: none;
+  padding: 12px;
 }
 
 button:enabled {
   color: #fff;
   background: #f55800;
+  border: 1px solid #ff6b00;
 }
 
 button:hover {
@@ -161,4 +181,219 @@ button:active {
 button:disabled {
   color: #5b5957;
   background: #f4f1f0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Works */
+
+.container2 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.title2 {
+  font-family: Crete Round, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #212121;
+  width: fit-content;
+  margin-top: 120px;
+  margin-bottom: 62px;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.box2 {
+  /* margin: 0 24px; */
+  width: 87%;
+  padding: 6px 0;
+}
+
+.img2 {
+  padding: 18px 0;
+}
+
+.img2 img {
+  width: 100%;
+}
+
+.subtitle2 {
+  font-family: Crete Round, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  margin: 0;
+}
+
+.p2 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #091e42;
+  margin: 0;
+}
+
+.list2 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: #091e42;
+  display: flex;
+}
+
+.list2 li {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin-right: 12px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 24px;
+  width: 87%;
+  margin-top: 18px;
+  justify-content: center;
+}
+
+.project {
+  background-image: url("../img/projects_bg.svg");
+  display: flex;
+  flex-direction: column;
+  max-width: 327px;
+}
+
+.box3 {
+  margin: 6px 16px;
+}
+
+.title3 {
+  font-family: Crete Round, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 84px;
+}
+
+.p3 {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.list3 {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.list3 li {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+}
+
+/* About me */
+
+.container3 {
+  background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container4 {
+  background: url("../img/cool_style-3.svg") right bottom no-repeat;
+}
+
+.main4 {
+  width: 87%;
+  margin: auto;
+  padding-bottom: 185px;
+  border-bottom: 1px solid #fff;
+}
+
+.box4 {
+  margin: 24px 0;
+}
+
+.title4 {
+  font-family: Crete Round, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+  margin-top: 120px;
+}
+
+.p4 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.container5 {
+  width: 87%;
+  margin: auto;
+  text-align: center;
+  padding: 105px 0;
+}
+
+.title5 {
+  font-family: InaiMathi, Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: #fff;
+  padding: 28px 0;
+}
+
+.title5 img {
+  margin-right: 12px;
+}
+
+.items5 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  color: #fff;
+  padding: 16px 0;
 }

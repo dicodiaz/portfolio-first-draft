@@ -1,12 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: mobile version
 
 "Your portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what you can bring to their teams." - Microverse
 
-This project is the first step of building my portfolio. For this project, I have to pick one of the templates shared by the Microverse community on https://www.figma.com (I picked #2) and build it from scratch using what was learned about HTML and CSS.
+This project is the second step of building my portfolio. For this project, I have to build the "Works" and "About me" sections of the [template](https://www.figma.com) picked in the first step (I picked #2) from scratch using what we learned in previous HTML & CSS lessons.
 
 ![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot-2.png)
 
 ## Built With
 
