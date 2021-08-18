@@ -308,7 +308,7 @@ button:disabled {
   align-items: center;
 }
 
-.about-me-headline-container {
+.about-me > .about-me-headline-container {
   width: 100%;
   background: url("../img/bg_about-me.svg") right bottom no-repeat;
 }
