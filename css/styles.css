@@ -159,6 +159,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 12px;
+  cursor: pointer;
 }
 
 button:enabled {
