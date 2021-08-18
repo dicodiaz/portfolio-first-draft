@@ -219,7 +219,6 @@ button:disabled {
 }
 
 .box2 {
-  /* margin: 0 24px; */
   width: 87%;
   padding: 6px 0;
 }
@@ -404,7 +403,6 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 0 24px; */
 }
 
 .box5 {
@@ -412,7 +410,7 @@ button:disabled {
 }
 
 .interest {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -444,7 +442,7 @@ button:disabled {
 .form input {
   border: none;
   width: 90%;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -452,11 +450,15 @@ button:disabled {
   color: #3c3a39;
 }
 
+textarea::-webkit-resizer {
+  background-image: url(../img/textarea_resizer.svg);
+}
+
 .form textarea {
   width: 100%;
   height: 114px;
   padding: 12px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -464,10 +466,6 @@ button:disabled {
   color: #3c3a39;
   background: #fbf8f7;
   border: none;
-}
-
-textarea::-webkit-resizer {
-  background-image: url(../img/textarea_resizer.svg);
 }
 
 .footer-social-container {
