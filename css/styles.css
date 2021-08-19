@@ -333,33 +333,29 @@ button:disabled {
   align-items: center;
 }
 
-.about-me > .about-me-headline-container {
-  width: 100%;
+.about-me-headline-container {
+  padding-top: 120px;
   background: url("../img/bg_about-me.svg") right bottom no-repeat;
 }
 
 .about-me-headline {
-  width: 87%;
-  margin: auto;
-  padding-bottom: 185px;
-  border-bottom: 1px solid #fff;
+  margin: 0 6.4%;
 }
 
-.about-me-headline > h2 {
+.about-me-headline-title {
   font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
   line-height: 88px;
   color: #ff6b00;
-  margin-top: 120px;
 }
 
-.about-me-headline > p {
+.about-me-headline-p {
   font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+  font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
   margin-top: 24px;
@@ -369,14 +365,21 @@ button:disabled {
   margin-top: 24px;
 }
 
-.about-me-skills {
-  width: 87%;
-  margin: auto;
-  text-align: center;
-  margin-top: 93px;
-  margin-bottom: 132px;
+.about-me-white-line {
+  height: 1px;
+  background-color: #fff;
+  margin: 209px 6.4% 0 6.4%;
 }
 
+.about-me-lists {
+  margin: 93px 0 132px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-lang-title,
+.about-me-frame-title,
 .about-me-skills-title {
   font-family: InaiMathi, Arial, sans-serif;
   font-size: 32px;
@@ -387,10 +390,12 @@ button:disabled {
   margin: 44px 0;
 }
 
-.about-me-skills-title img {
+.about-me-lists img {
   margin-right: 12px;
 }
 
+.about-me-lang-item,
+.about-me-frame-item,
 .about-me-skills-item {
   font-family: Inter, Arial, sans-serif;
   font-size: 22px;
@@ -400,6 +405,8 @@ button:disabled {
   color: #fff;
 }
 
+.about-me-lang-item + .about-me-lang-item,
+.about-me-frame-item + .about-me-frame-item,
 .about-me-skills-item + .about-me-skills-item {
   margin-top: 32px;
 }

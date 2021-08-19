@@ -175,6 +175,44 @@
   margin-top: auto;
 }
 
+/* About me */
+
+.about-me-headline-container {
+  background: url("../img/bg_about-me_desktop.svg") right center no-repeat;
+}
+
+.about-me-headline {
+  margin: 0 51% 0 10%;
+}
+
+.about-me-title {
+  line-height: 81px;
+  color: #f55800;
+}
+
+.about-me-headline-p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.about-me-white-line {
+  margin: 139px 10% 0 10%;
+}
+
+.about-me-lists {
+  margin: 0;
+  width: 100%;
+  padding: 10vh 10%;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.about-me-lists > ul {
+  /* width: 33.33%; */
+  
+}
+
 /* li + li */
 
 .headline-list li + li {
