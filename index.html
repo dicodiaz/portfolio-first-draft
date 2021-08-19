@@ -13,8 +13,8 @@
     <header class="header">
         <nav class="toolbar">
             <ul class="toolbar-list">
-                <li class="toolbar-item-1">Dico Diaz Dussan</li>
-                <li class="toolbar-item-2"><a href="#"><img src="img/menu.svg" alt="menu"></a></li>
+                <li class="toolbar-item-1"><a href="#main">Dico Diaz Dussan</a></li>
+                <li class="hidden-desktop toolbar-item-2"><a href="#"><img src="img/menu.svg" alt="menu"></a></li>
                 <li class="hidden toolbar-item-3"><a href="#portfolio">Portfolio</a></li>
                 <li class="hidden toolbar-item-4"><a href="#about">About</a></li>
                 <li class="hidden toolbar-item-5"><a href="#contact">Contact</a></li>
@@ -22,7 +22,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main">
+    <main id="main" class="main">
         <section class="headline">
             <div class="headline-container">
                 <h1 class="headline-title">Hey there.<br> I'm Dico</h1>
@@ -44,101 +44,120 @@
             </div>
         </section>
         <section id="portfolio" class="works">
-            <h2>My Recent Works</h2>
-            <img src="img/app_screenshot.svg" alt="app_screenshot">
-            <h3>Multi-Post Stories</h3>
-            <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required. This
-                has been the industry's standard dummy text ever since the 1500's when an unknown printer took a
-                standard dummy text.
-            </p>
-            <ul class="works-skills-list">
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>Bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <div class="works-button">
-                <button type="button">See Project</button>
+            <div class="works-container">
+                <h2 class="works-title">My Recent Works</h2>
+                <div class="works-black-line-container">
+                    <div class="works-black-line"></div>
+                </div>
+                <img class="works-img" src="img/app_screenshot.svg" alt="app_screenshot">
+                <div class="multi-post-stories">
+                    <h3 class="works-subtitle">Multi-Post Stories</h3>
+                    <p class="works-p">
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. This
+                        has been the industry's standard dummy text ever since the 1500's when an unknown printer took a
+                        standard dummy text.
+                    </p>
+                    <ul class="works-skills-list">
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>Bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                    <div class="works-button">
+                        <button type="button">See Project</button>
+                    </div>
+                </div>
             </div>
             <div class="projects">
-                <article class="project">
-                    <h4 class="project-box">Profesional Art Printing Data</h4>
-                    <p class="project-box">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                        This has been the industry's standard.
-                    </p>
-                    <ul class="project-box project-skill-list">
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
+                <article class="project project1">
+                    <div class="hidden-desktop project-container">
+                        <h4 class="project-title">Profesional Art Printing Data</h4>
+                        <p class="project-p">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            This has been the industry's standard.
+                        </p>
+                        <ul class="project-skill-list">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
                     <button type="button">See Project</button>
                 </article>
-                <article class="project">
-                    <h4 class="project-box">Profesional Art Printing Data</h4>
-                    <p class="project-box">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                        This has been the industry's standard.
-                    </p>
-                    <ul class="project-box project-skill-list">
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
+                <article class="project project2">
+                    <div class="project-container">
+                        <h4 class="project-title">Data Dashboard Healthcare</h4>
+                        <p class="project-p">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            This has been the industry's standard.
+                        </p>
+                        <ul class="project-skill-list">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="hidden-desktop" type="button">See Project</button>
                 </article>
-                <article class="project">
-                    <h4 class="project-box">Profesional Art Printing Data</h4>
-                    <p class="project-box">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                        This has been the industry's standard.
-                    </p>
-                    <ul class="project-box project-skill-list">
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
+                <article class="project project3">
+                    <div class="project-container">
+                        <h4 class="project-title">Website Portfolio</h4>
+                        <p class="project-p">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            This has been the industry's standard.
+                        </p>
+                        <ul class="project-skill-list">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="hidden-desktop" type="button">See Project</button>
                 </article>
-                <article class="project">
-                    <h4 class="project-box">Profesional Art Printing Data</h4>
-                    <p class="project-box">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                        This has been the industry's standard.
-                    </p>
-                    <ul class="project-box project-skill-list">
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
+                <article class="project project4">
+                    <div class="project-container">
+                        <h4 class="project-title">Profesional Art Printing Data More</h4>
+                        <p class="project-p">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            This has been the industry's standard.
+                        </p>
+                        <ul class="project-skill-list">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="hidden-desktop" type="button">See Project</button>
                 </article>
-                <article class="project">
-                    <h4 class="project-box">Profesional Art Printing Data</h4>
-                    <p class="project-box">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                        This has been the industry's standard.
-                    </p>
-                    <ul class="project-box project-skill-list">
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
+                <article class="project project5">
+                    <div class="project-container">
+                        <h4 class="project-title">Data Dashboard Healthcare</h4>
+                        <p class="project-p">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            This has been the industry's standard.
+                        </p>
+                        <ul class="project-skill-list">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="hidden-desktop" type="button">See Project</button>
                 </article>
-                <article class="project">
-                    <h4 class="project-box">Profesional Art Printing Data</h4>
-                    <p class="project-box">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                        This has been the industry's standard.
-                    </p>
-                    <ul class="project-box project-skill-list">
-                        <li>HTML</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
+                <article class="project project6">
+                    <div class="project-container">
+                        <h4 class="project-title">Website Portfolio</h4>
+                        <p class="project-p">
+                            A daily selection of privately personalized reads; no accounts or sign-ups required.
+                            This has been the industry's standard.
+                        </p>
+                        <ul class="project-skill-list">
+                            <li>HTML</li>
+                            <li>Bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button class="hidden-desktop" type="button">See Project</button>
                 </article>
             </div>
         </section>

@@ -43,6 +43,11 @@ a {
   text-decoration: none;
 }
 
+a:link,
+a:visited {
+  color: inherit;
+}
+
 /* Toolbar */
 
 .header {
@@ -86,6 +91,8 @@ a {
 }
 
 .headline-container {
+  display: flex;
+  flex-direction: column;
   margin: 120px 6.4%;
 }
 
@@ -167,13 +174,14 @@ button:disabled {
 
 /* Works */
 
-.works {
-  display: flex;
+.works-container {
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  margin: 120px 6% 0 6%;
 }
 
-.works > h2 {
+.works-title {
   font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -181,16 +189,21 @@ button:disabled {
   line-height: 52px;
   color: #1c1a19;
   padding-bottom: 24px;
-  border-bottom: 1px solid #212121;
   width: fit-content;
-  margin-top: 120px;
+  margin: 0 auto;
 }
 
-.works > img {
+.works-black-line {
+  height: 1px;
+  background-color: #212121;
+}
+
+.works-img {
   margin-top: 80px;
+  width: 100%;
 }
 
-.works > h3 {
+.works-subtitle {
   font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -200,11 +213,11 @@ button:disabled {
   margin-top: 24px;
 }
 
-.works > p {
+.works-p {
   font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
   color: #091e42;
   margin-top: 12px;
@@ -240,28 +253,27 @@ button:disabled {
 }
 
 .project {
-  background-image: url("../img/bg_project.svg");
+  background-image: url("../img/bg_project4.svg");
   display: flex;
   flex-direction: column;
   max-width: 327px;
+  padding-top: 84px;
 }
 
-.project-box {
-  margin-left: 16px;
-  margin-right: 16px;
+.project-container {
+  padding: 0 16px;
 }
 
-.project > h4 {
+.project-title {
   font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin-top: 84px;
 }
 
-.project > p {
+.project-p {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -286,6 +298,26 @@ button:disabled {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
+}
+
+.project2 {
+  background-image: url("../img/bg_project2.svg");
+}
+
+.project3 {
+  background-image: url("../img/bg_project3.svg");
+}
+
+.project4 {
+  background-image: url("../img/bg_project4.svg");
+}
+
+.project5 {
+  background-image: url("../img/bg_project5.svg");
+}
+
+.project6 {
+  background-image: url("../img/bg_project6.svg");
 }
 
 .project > button {
