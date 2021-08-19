@@ -43,7 +43,7 @@ a {
   text-decoration: none;
 }
 
-/* Toolbar & Headline */
+/* Toolbar */
 
 .header {
   background: #3c3a39;
@@ -52,16 +52,19 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  display: flex;
+  align-content: center;
 }
 
 .toolbar {
-  height: 100%;
+  width: 100%;
+  margin: auto 0;
 }
 
 .toolbar-list {
-  height: 100%;
   display: flex;
   align-items: center;
+  margin: 0 9.6% 0 6.4%;
 }
 
 .toolbar-item-1 {
@@ -71,32 +74,22 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #fff;
-  margin-left: 24px;
   margin-right: auto;
 }
 
-.toolbar-item-2 {
-  margin-right: 36px;
-  margin-left: auto;
-}
-
-.main > section > * {
-  width: 87%;
-}
-
-.main {
-  margin-top: 46px;
-}
+/* Headline */
 
 .headline {
-  height: calc(100vh - 46px);
+  height: 100vh;
+  padding-top: 46px;
   background: #1c1a19 url("../img/bg_headline.svg") right bottom no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.headline > h1 {
+.headline-container {
+  margin: 120px 6.4%;
+}
+
+.headline-title {
   font-family: Crete Round, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -104,10 +97,9 @@ a {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin-top: 120px;
 }
 
-.headline > h2 {
+.headline-subtitle {
   font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -117,7 +109,7 @@ a {
   margin-top: 12px;
 }
 
-.headline > p {
+.headline-p {
   font-family: Poppins, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -127,10 +119,14 @@ a {
   margin-top: 12px;
 }
 
-.headline-icons-list {
+.headline-list {
   display: flex;
   align-items: center;
   margin-top: 22px;
+}
+
+.headline-list-item1 {
+  margin-left: 11px;
 }
 
 /* Button */
@@ -464,6 +460,10 @@ textarea::-webkit-resizer {
 
 /* li + li */
 
+.headline-list li + li {
+  margin-left: 23px;
+}
+
 .footer-social li + li {
   margin-left: 23px;
 }
@@ -474,8 +474,4 @@ textarea::-webkit-resizer {
 
 .works-skills-list li + li {
   margin-left: 12px;
-}
-
-.headline-icons-list li + li {
-  margin-left: 23px;
 }
