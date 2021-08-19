@@ -39,6 +39,10 @@ ul {
   display: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Toolbar & Headline */
 
 .header {
@@ -123,17 +127,10 @@ ul {
   margin-top: 12px;
 }
 
-.headline-icons {
-  margin-top: 22px;
-}
-
 .headline-icons-list {
   display: flex;
   align-items: center;
-}
-
-.headline-icons-list:first-child {
-  padding-left: 11px;
+  margin-top: 22px;
 }
 
 /* Button */
@@ -468,7 +465,7 @@ textarea::-webkit-resizer {
 /* li + li */
 
 .footer-social li + li {
-  padding-left: 23px;
+  margin-left: 23px;
 }
 
 .form li + li {
@@ -480,5 +477,5 @@ textarea::-webkit-resizer {
 }
 
 .headline-icons-list li + li {
-  padding-left: 23px;
+  margin-left: 23px;
 }

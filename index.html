@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <Title>Dico's portfolio</Title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-desktop.css" type="text/css" media="screen and (min-width: 768px)">
 </head>
 
 <body>
@@ -14,30 +15,32 @@
             <ul class="toolbar-list">
                 <li class="toolbar-item-1">Dico Diaz Dussan</li>
                 <li class="toolbar-item-2"><a href="#"><img src="img/menu.svg" alt="menu"></a></li>
+                <li class="hidden toolbar-item-3"><a href="#portfolio">Portfolio</a></li>
+                <li class="hidden toolbar-item-4"><a href="#about">About</a></li>
+                <li class="hidden toolbar-item-5"><a href="#contact">Contact</a></li>
+                <li class="hidden toolbar-item-6"><a href="#"><img src="img/mail.svg" alt="menu"></a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <section class="headline">
-            <h1>Hey there.<br> I'm Dico</h1>
-            <h2>I am a Software Developer</h2>
-            <p>
+            <h1 class="headline-box">Hey there.<br> I'm Dico</h1>
+            <h2 class="headline-box">I am a Software Developer</h2>
+            <p class="headline-box">
                 I can help you build a product, feature, or website. Please look through some of my work and
                 experience. If you like what you see and have a project you need to be coded, don't hesitate to
                 contact me.
             </p>
-            <footer class="headline-icons">
-                <ul class="headline-icons-list">
-                    <li><a href="https://github.com/dicodiaz"><img src="img/github.svg" alt="github"></a></li>
-                    <li><a href="https://www.linkedin.com/in/dico-diaz-dussan-476106a6/"><img src="img/linkedin.svg"
-                                alt="linkedin"></a></li>
-                    <li><a href="#"><img src="img/angellist.svg" alt="angellist"></a></li>
-                    <li><a href="https://twitter.com/DicoDiaz1"><img src="img/twitter.svg" alt="twitter"></a></li>
-                    <li><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
-                </ul>
-            </footer>
+            <ul class="headline-icons-list">
+                <li><a href="https://github.com/dicodiaz"><img src="img/github.svg" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/dico-diaz-dussan-476106a6/"><img src="img/linkedin.svg"
+                            alt="linkedin"></a></li>
+                <li><a href="#"><img src="img/angellist.svg" alt="angellist"></a></li>
+                <li><a href="https://twitter.com/DicoDiaz1"><img src="img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/medium.svg" alt="medium"></a></li>
+            </ul>
         </section>
-        <section class="works">
+        <section id="portfolio" class="works">
             <h2>My Recent Works</h2>
             <img src="img/app_screenshot.svg" alt="app_screenshot">
             <h3>Multi-Post Stories</h3>
@@ -136,7 +139,7 @@
                 </article>
             </div>
         </section>
-        <section class="about-me">
+        <section id="about" class="about-me">
             <div class="about-me-headline-container">
                 <div class="about-me-headline">
                     <h2>About me</h2>
@@ -173,7 +176,7 @@
                 <li class="about-me-skills-item">Terminal</li>
             </ul>
         </section>
-        <section class="contact-form">
+        <section id="contact" class="contact-form">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat
                 please
                 get in touch.</h2>
