@@ -52,10 +52,6 @@
   justify-content: center;
 }
 
-.headline-container > .headline-list > li {
-  margin-left: 25.3%;
-}
-
 .headline-title,
 .headline-subtitle,
 .headline-p {
@@ -75,7 +71,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .headline-p {
@@ -208,13 +204,50 @@
   justify-content: space-between;
 }
 
-.about-me-lists > ul {
-  /* width: 33.33%; */
-  
+/* Contact */
+
+.contact {
+  flex-direction: row;
+  margin: 130px 10% 0 10%;
+  align-items: flex-start;
+}
+
+.contact-title {
+  width: 40%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #262626;
+  padding-right: 24px;
+}
+
+.contact-form {
+  width: 60%;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.contact-form-input {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.contact-form-button {
+  align-self: flex-start;
+}
+
+/* Footer */
+
+.footer {
+  padding-bottom: 26px;
 }
 
 /* li + li */
 
 .headline-list li + li {
   margin-top: 20px;
+}
+
+.headline-container > .headline-list > li {
+  margin-left: 25.3%;
 }
