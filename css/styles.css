@@ -80,6 +80,14 @@ a:visited {
   line-height: 24px;
   color: #fff;
   margin-right: auto;
+  animation-name: rotate360;
+  animation-duration: 2s;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Headline */
@@ -262,7 +270,7 @@ button:disabled {
 }
 
 .project:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: transform 1.5s ease-out;
 }
 
@@ -479,6 +487,12 @@ button:disabled {
   color: #3c3a39;
   background: #fbf8f7;
   border: none;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  transform: translate(5px);
+  transition: transform 0.5s linear;
 }
 
 /* Footer */

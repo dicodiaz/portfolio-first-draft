@@ -147,6 +147,7 @@
 
 .project {
   height: 435px;
+  max-width: 369px;
 }
 
 .project-container {
