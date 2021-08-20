@@ -160,6 +160,7 @@ button:hover {
   color: #f55800;
   background: #fff5e1;
   border: 1px solid #f55800;
+  transition: background-color 1s ease;
 }
 
 button:active {
@@ -258,6 +259,11 @@ button:disabled {
   flex-direction: column;
   max-width: 327px;
   padding-top: 84px;
+}
+
+.project:hover {
+  transform: scale(1.1); 
+  transition: transform 1.5s ease-out;
 }
 
 .project-container {
