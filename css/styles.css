@@ -247,12 +247,7 @@ button:disabled {
 }
 
 .project {
-  background: linear-gradient(
-      179.35deg,
-      rgba(38, 38, 38, 0) 0.85%,
-      rgba(38, 38, 38, 0.9) 84%
-    ),
-    url("../img/bg_project1.svg");
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/bg_project1.svg");
   display: flex;
   flex-direction: column;
   max-width: 369px;
