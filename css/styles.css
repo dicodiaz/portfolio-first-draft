@@ -16,17 +16,6 @@
 
 * {
   box-sizing: border-box;
-}
-
-body,
-ul,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
   margin: 0;
   padding: 0;
 }
@@ -80,6 +69,14 @@ a:visited {
   line-height: 24px;
   color: #fff;
   margin-right: auto;
+  animation-name: rotate360;
+  animation-duration: 2s;
+}
+
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Headline */
@@ -148,6 +145,7 @@ button {
   letter-spacing: 0.03em;
   padding: 12px;
   cursor: pointer;
+  transition: all 1s ease-in;
 }
 
 button:enabled {
@@ -175,9 +173,6 @@ button:disabled {
 /* Works */
 
 .works-container {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   margin: 120px 6% 0 6%;
 }
 
@@ -244,20 +239,24 @@ button:disabled {
 }
 
 .projects {
-  margin-top: 24px;
+  margin: 24px 6.4% 120px 6.4%;
   display: grid;
   grid-gap: 24px;
   grid-template-columns: auto;
   justify-content: center;
-  margin-bottom: 120px;
 }
 
 .project {
-  background-image: url("../img/bg_project4.svg");
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/bg_project1.svg");
   display: flex;
   flex-direction: column;
-  max-width: 327px;
+  max-width: 369px;
   padding-top: 84px;
+  transition: transform 1.5s ease-out;
+}
+
+.project:hover {
+  transform: scale(1.1);
 }
 
 .project-container {
@@ -300,7 +299,7 @@ button:disabled {
   margin-right: 12px;
 }
 
-.project2 {
+/* .project2 {
   background-image: url("../img/bg_project2.svg");
 }
 
@@ -318,9 +317,9 @@ button:disabled {
 
 .project6 {
   background-image: url("../img/bg_project6.svg");
-}
+} */
 
-.project > button {
+.project-button {
   margin-top: 22px;
 }
 
@@ -473,6 +472,16 @@ button:disabled {
   color: #3c3a39;
   background: #fbf8f7;
   border: none;
+}
+
+.contact-form input,
+.contact-form textarea {
+  transition: transform 0.5s linear;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  transform: translate(5px);
 }
 
 /* Footer */

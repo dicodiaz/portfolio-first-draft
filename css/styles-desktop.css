@@ -147,6 +147,8 @@
 
 .project {
   height: 435px;
+  max-width: 369px;
+  transition: all 1s linear;
 }
 
 .project-container {
@@ -163,12 +165,21 @@
   margin-bottom: 16px;
 }
 
-.project1 {
-  background-image: url("../img/bg_project1.svg");
+.project-button {
+  margin-top: auto;
+  display: none;
 }
 
-.project1 > button {
-  margin-top: auto;
+.project:hover {
+  background: url("../img/bg_project1.svg");
+}
+
+.project:hover > .project-container {
+  display: none;
+}
+
+.project:hover > .project-button {
+  display: block;
 }
 
 /* About me */
