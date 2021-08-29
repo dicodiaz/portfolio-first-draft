@@ -247,16 +247,35 @@ button:disabled {
 }
 
 .project {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/bg_project1.svg");
   display: flex;
   flex-direction: column;
+  justify-content: end;
   max-width: 369px;
   padding-top: 84px;
-  transition: transform 1.5s ease-out;
 }
 
-.project:hover {
-  transform: scale(1.1);
+.project1 {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/bg_project1.svg") no-repeat;
+}
+
+.project2 {
+  background: url("../img/bg_project2.svg") no-repeat;
+}
+
+.project3 {
+  background: url("../img/bg_project3.svg") no-repeat;
+}
+
+.project4 {
+  background: url("../img/bg_project4.svg") no-repeat;
+}
+
+.project5 {
+  background: url("../img/bg_project5.svg") no-repeat;
+}
+
+.project6 {
+  background: url("../img/bg_project6.svg") no-repeat;
 }
 
 .project-container {
@@ -298,26 +317,6 @@ button:disabled {
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
 }
-
-/* .project2 {
-  background-image: url("../img/bg_project2.svg");
-}
-
-.project3 {
-  background-image: url("../img/bg_project3.svg");
-}
-
-.project4 {
-  background-image: url("../img/bg_project4.svg");
-}
-
-.project5 {
-  background-image: url("../img/bg_project5.svg");
-}
-
-.project6 {
-  background-image: url("../img/bg_project6.svg");
-} */
 
 .project-button {
   margin-top: 22px;
@@ -479,11 +478,6 @@ button:disabled {
   transition: transform 0.5s linear;
 }
 
-.contact-form input:hover,
-.contact-form textarea:hover {
-  transform: translate(5px);
-}
-
 /* Footer */
 
 .footer {
@@ -493,7 +487,7 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
+  padding: 25px 0;
 }
 
 .footer-list {
@@ -501,12 +495,9 @@ button:disabled {
   align-items: center;
 }
 
-.black-line {
-  width: 36%;
-  height: 5px;
-  background: #0d151e;
-  border-radius: 10px;
-  margin: 23px 0 8px 0;
+.headline-list li,
+.footer-list li {
+  transition: transform 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 /* li + li */
@@ -525,4 +516,20 @@ button:disabled {
 
 .footer-list li + li {
   margin-left: 23px;
+}
+
+/* Effects */
+
+.headline-list li:hover,
+.footer-list li:hover {
+  transform: scale(1.1);
+}
+
+.toolbar-list li:hover {
+  text-decoration: underline;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  transform: translate(5px);
 }

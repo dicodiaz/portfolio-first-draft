@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile version
+# Portfolio
 
 "Your portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what you can bring to their teams." - Microverse
 
@@ -10,10 +10,16 @@ This project consists in building my personal portfolio from scratch, choosing o
 2. Build the "Works" and "About me" sections of the mobile version.
 3. Build the contact form and to finish the mobile version of the mobile version.
 4. Build the desktop version.
+5. Deploy the application in GitHub Pages.
+6. Evaluate accesibility.
 
 ## Mobile
 
 ![screenshot](./app_screenshot.png)
+
+## Desktop
+
+![screenshot](./app_screenshot_desktop.png)
 
 ## Built With
 
@@ -32,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone repo into your machine. For this, I recommend the following steps:
   - Open a terminal of your choice (e.g. VS Code integrated terminal)
-  - Select the destination folder (On windows, run cd "*Destination folder*")
+  - Select the destination folder (On windows, run cd "_Destination folder_")
   - Run git clone https://github.com/dicodiaz/Portfolio
 - Open the destination folder in your preferred file explorer
 - Open folder "Portfolio"
@@ -85,7 +91,6 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - Microverse program
-- My standup team
 - My code reviewers
 
 ## 📝 License
