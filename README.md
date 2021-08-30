@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portfolio - Mobile Menu
 
 "Your portfolio is one of the most powerful tools in your software developer toolbox; it’s the easiest way of showing what you’re truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what you can bring to their teams." - Microverse
 
@@ -12,6 +12,7 @@ This project consists in building my personal portfolio from scratch, choosing o
 4. Build the desktop version.
 5. Deploy the application in GitHub Pages.
 6. Evaluate accesibility.
+7. Build the mobile menu.
 
 ## Mobile
 
