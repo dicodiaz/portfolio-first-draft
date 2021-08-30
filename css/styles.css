@@ -548,3 +548,13 @@ button:disabled {
 .d-none {
   display: none;
 }
+
+.menu-header {
+  display: flex;
+  margin-top: 11px;
+}
+
+#cancel-button {
+  margin-left: auto;
+  margin-right: 9.6%;
+}
