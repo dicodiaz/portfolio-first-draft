@@ -558,3 +558,18 @@ button:disabled {
   margin-left: auto;
   margin-right: 9.6%;
 }
+
+.mobile-menu-list {
+  margin: 34px 6.4% 0 6.4%;
+}
+
+.mobile-menu-list > li {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #fff5e1;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #6f6c6b;
+  margin-bottom: 24px;
+}
