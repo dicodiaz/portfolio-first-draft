@@ -82,7 +82,7 @@ projectButtons.forEach((item, i) => {
     });
     popupSource.addEventListener('click', () => {
       window.location.href = projects[i - 1].source;
-    });  
+    });
   });
 });
 
@@ -94,7 +94,3 @@ cancelProjectButton.addEventListener('click', () => {
     popupTech.removeChild(item);
   });
 });
-
-
-
-
