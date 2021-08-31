@@ -37,6 +37,10 @@ a:visited {
   color: inherit;
 }
 
+.fas {
+  cursor: pointer;
+}
+
 /* Toolbar */
 
 .header {
