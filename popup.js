@@ -1,8 +1,5 @@
-const popup = document.querySelector('.popup');
-const projectButtons = document.querySelectorAll('.project-button');
-
 const project1 = {
-  name: 'Multi Post Stories',
+  name: 'Multi Post Stories1',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   image: 'img/project-image.svg',
@@ -11,7 +8,7 @@ const project1 = {
   source: 'https://github.com/dicodiaz/google-homepage',
 };
 const project2 = {
-  name: 'Multi Post Stories',
+  name: 'Multi Post Stories2',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   image: 'img/project-image.svg',
@@ -20,7 +17,7 @@ const project2 = {
   source: 'https://github.com/dicodiaz/google-homepage',
 };
 const project3 = {
-  name: 'sakdjfhajksdf',
+  name: 'Multi Post Stories3',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   image: 'img/project-image.svg',
@@ -29,7 +26,7 @@ const project3 = {
   source: 'https://github.com/dicodiaz/google-homepage',
 };
 const project4 = {
-  name: 'Multi Post Stories',
+  name: 'Multi Post Stories4',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   image: 'img/project-image.svg',
@@ -38,7 +35,7 @@ const project4 = {
   source: 'https://github.com/dicodiaz/google-homepage',
 };
 const project5 = {
-  name: 'Multi Post Stories',
+  name: 'Multi Post Stories5',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   image: 'img/project-image.svg',
@@ -47,7 +44,16 @@ const project5 = {
   source: 'https://github.com/dicodiaz/google-homepage',
 };
 const project6 = {
-  name: 'Multi Post Stories',
+  name: 'Multi Post Stories6',
+  description:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+  image: 'img/project-image.svg',
+  technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+  live: 'http://dicodiaz.me/google-homepage/',
+  source: 'https://github.com/dicodiaz/google-homepage',
+};
+const project7 = {
+  name: 'Multi Post Stories7',
   description:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   image: 'img/project-image.svg',
@@ -56,8 +62,9 @@ const project6 = {
   source: 'https://github.com/dicodiaz/google-homepage',
 };
 
-const projects = [project1, project2, project3, project4, project5, project6];
-
+const projects = [project1, project2, project3, project4, project5, project6, project7];
+const popup = document.querySelector('.popup');
+const projectButtons = document.querySelectorAll('.project-button');
 const popupTitle = document.querySelector('.popup-title');
 const popupImg = document.querySelector('.popup-img');
 const popupDesc = document.querySelector('.popup-desc');
@@ -68,20 +75,20 @@ const popupSource = document.querySelector('.btn-source');
 projectButtons.forEach((item, i) => {
   item.addEventListener('click', () => {
     popup.classList.remove('d-none');
-    popupTitle.innerHTML = projects[i - 1].name;
-    projects[i - 1].technologies.forEach((tech) => {
+    popupTitle.innerHTML = projects[i].name;
+    projects[i].technologies.forEach((tech) => {
       const li = document.createElement('li');
       li.className = 'popup-tech-item';
       li.innerHTML = tech;
       popupTech.appendChild(li);
     });
-    popupImg.src = projects[i - 1].image;
-    popupDesc.innerHTML = projects[i - 1].description;
+    popupImg.src = projects[i].image;
+    popupDesc.innerHTML = projects[i].description;
     popupLive.addEventListener('click', () => {
-      window.location.href = projects[i - 1].live;
+      window.location.href = projects[i].live;
     });
     popupSource.addEventListener('click', () => {
-      window.location.href = projects[i - 1].source;
+      window.location.href = projects[i].source;
     });
   });
 });
