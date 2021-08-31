@@ -1,15 +1,15 @@
 /* fonts */
 
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
-  font-family: "InaiMathi";
+  font-family: 'InaiMathi';
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/InaiMathi.ttf");
+  src: url('../fonts/InaiMathi.ttf');
 }
 
 /* Global */
@@ -124,7 +124,7 @@ a:visited {
 .headline {
   height: 100vh;
   padding-top: 46px;
-  background: #1c1a19 url("../img/bg_headline.svg") right bottom no-repeat;
+  background: #1c1a19 url('../img/bg_headline.svg') right bottom no-repeat;
 }
 
 .headline-container {
@@ -295,27 +295,27 @@ button:disabled {
 }
 
 .project1 {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/bg_project1.svg") no-repeat;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url('../img/bg_project1.svg') no-repeat;
 }
 
 .project2 {
-  background: url("../img/bg_project2.svg") no-repeat;
+  background: url('../img/bg_project2.svg') no-repeat;
 }
 
 .project3 {
-  background: url("../img/bg_project3.svg") no-repeat;
+  background: url('../img/bg_project3.svg') no-repeat;
 }
 
 .project4 {
-  background: url("../img/bg_project4.svg") no-repeat;
+  background: url('../img/bg_project4.svg') no-repeat;
 }
 
 .project5 {
-  background: url("../img/bg_project5.svg") no-repeat;
+  background: url('../img/bg_project5.svg') no-repeat;
 }
 
 .project6 {
-  background: url("../img/bg_project6.svg") no-repeat;
+  background: url('../img/bg_project6.svg') no-repeat;
 }
 
 .project-container {
@@ -373,7 +373,7 @@ button:disabled {
 
 .about-me-headline-container {
   padding-top: 120px;
-  background: url("../img/bg_about-me.svg") right bottom no-repeat;
+  background: url('../img/bg_about-me.svg') right bottom no-repeat;
 }
 
 .about-me-headline {
@@ -572,4 +572,37 @@ button:disabled {
 .contact-form input:hover,
 .contact-form textarea:hover {
   transform: translate(5px);
+}
+
+/* Popup */
+
+.popup {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(2.5px);
+}
+
+.popup-container {
+  margin: 10% 16px;
+  background-color: white;
+  height: 90%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.popup-header {
+  align-items: center;
+}
+
+.popup-cancel-button {
+  height: min-content;
+}
+
+.popup-title {
+  margin-right: auto;
 }
