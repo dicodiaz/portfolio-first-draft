@@ -58,14 +58,14 @@ const project6 = {
 
 const projects = [project1, project2, project3, project4, project5, project6];
 
-projectButtons.forEach((item, i) => {
-  const popupTitle = document.querySelector('.popup-title');
-  const popupTech = document.querySelector('.popup-tech');
-  const popupImg = document.querySelector('.popup-img');
-  const popupDesc = document.querySelector('.popup-desc');
-  const popupLive = document.querySelector('.btn-live');
-  const popupSource = document.querySelector('.btn-source');
+const popupTitle = document.querySelector('.popup-title');
+const popupImg = document.querySelector('.popup-img');
+const popupDesc = document.querySelector('.popup-desc');
+const popupTech = document.querySelector('.popup-tech');
+const popupLive = document.querySelector('.btn-live');
+const popupSource = document.querySelector('.btn-source');
 
+projectButtons.forEach((item, i) => {
   item.addEventListener('click', () => {
     popup.classList.remove('d-none');
     popupTitle.innerHTML = projects[i - 1].name;
@@ -77,5 +77,24 @@ projectButtons.forEach((item, i) => {
     });
     popupImg.src = projects[i - 1].image;
     popupDesc.innerHTML = projects[i - 1].description;
+    popupLive.addEventListener('click', () => {
+      window.location.href = projects[i - 1].live;
+    });
+    popupSource.addEventListener('click', () => {
+      window.location.href = projects[i - 1].source;
+    });  
   });
 });
+
+const cancelProjectButton = document.getElementById('popup-cancel-button');
+
+cancelProjectButton.addEventListener('click', () => {
+  popup.classList.add('d-none');
+  document.querySelectorAll('.popup-tech-item').forEach((item) => {
+    popupTech.removeChild(item);
+  });
+});
+
+
+
+
