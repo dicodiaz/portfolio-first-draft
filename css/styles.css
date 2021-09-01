@@ -680,7 +680,7 @@ button:disabled {
 
 #error-msg {
   font-family: Inter, Arial, sans-serif;
-  color:rgba(255, 0, 0, 0.85);
+  color: rgba(255, 0, 0, 0.85);
   border-bottom: 1px solid rgba(255, 0, 0, 0.85);
   padding-bottom: 6px;
 }
