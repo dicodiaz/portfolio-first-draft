@@ -15,22 +15,12 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
-      gtag("config", "G-R1KZKFMJRZ");
+      gtag('js', new Date());
+      gtag('config', 'G-R1KZKFMJRZ');
     </script>
   </head>
 
   <body>
-    <section class="mobile-menu d-none">
-      <div class="menu-header">
-        <i id="cancel-button" class="fas fa-times fa-lg fa-inverse"></i>
-      </div>
-      <ul class="mobile-menu-list">
-        <li><a href="#header">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </section>
     <header class="header">
       <nav class="toolbar">
         <ul class="toolbar-list">
@@ -46,6 +36,16 @@
           </li>
         </ul>
       </nav>
+      <section class="mobile-menu d-none">
+        <div class="menu-header">
+          <i id="cancel-button" class="fas fa-times fa-lg fa-inverse"></i>
+        </div>
+        <ul class="mobile-menu-list">
+          <li><a href="#header">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
     </header>
     <main id="main" class="main">
       <section class="headline">
@@ -92,7 +92,7 @@
               <li>Ruby</li>
             </ul>
             <div class="works-button">
-              <button type="button">See Project</button>
+              <button class="project-button" type="button">See Project</button>
             </div>
           </div>
         </div>
@@ -227,6 +227,30 @@
           </ul>
         </form>
       </section>
+      <section class="popup d-none">
+        <div class="popup-container">
+          <div class="popup-container2">
+            <div class="popup-header">
+              <h2 class="popup-title"></h2>
+              <i id="popup-cancel-button" class="fas fa-times fa-lg"></i>
+            </div>
+            <ul class="popup-tech"></ul>
+            <div class="popup-container3">
+              <div class="popup-img-container">
+                <img class="popup-img" src="/" alt="project-image" />
+              </div>
+              <div class="popup-desc-btns-container">
+                <p class="popup-desc"></p>
+                <div class="popup-btns">
+                  <button type="button" class="btn-live">See Live<img src="img/icon-live.svg" alt="icon-live" /></button>
+                  <button type="button" class="btn-source">See Source<img src="img/icon-github_white.svg" alt="icon-github-white" /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popup-footer"></div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <ul class="footer-list">
@@ -248,5 +272,6 @@
       </ul>
     </footer>
     <script src="app.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
