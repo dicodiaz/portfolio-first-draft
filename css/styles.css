@@ -9,7 +9,7 @@
   font-family: 'InaiMathi';
   font-weight: normal;
   font-style: normal;
-  src: url('../fonts/InaiMathi.ttf');
+  src: url('../font/InaiMathi.ttf');
 }
 
 /* Global */
@@ -37,7 +37,8 @@ a:visited {
   color: inherit;
 }
 
-.fas {
+.fas,
+.far {
   cursor: pointer;
 }
 
@@ -362,6 +363,103 @@ button:disabled {
   margin-top: 22px;
 }
 
+/* Popup */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(2.5px);
+  overflow: scroll;
+  background: rgba(38, 38, 38, 0.5);
+}
+
+.popup-container {
+  background-color: white;
+  margin: 9vh 4.3%;
+  height: 82vh;
+}
+
+.popup-container2 {
+  padding: 16px;
+  background-color: white;
+  min-height: 100%;
+}
+
+.popup-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.popup-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-right: auto;
+}
+
+#popup-cancel-button {
+  margin-right: 14px;
+}
+
+.popup-tech {
+  display: flex;
+  margin-top: 40px;
+}
+
+.popup-tech-item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  padding: 10px 12px;
+  border: 1px solid #979493;
+}
+
+.popup-img-container {
+  margin: 24px 0;
+}
+
+.popup-img {
+  width: 100%;
+}
+
+.popup-desc {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popup-btns {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-live,
+.btn-source {
+  display: flex;
+  align-items: center;
+}
+
+.btn-live > img,
+.btn-source > img {
+  margin-left: 12px;
+}
+
+.popup-footer {
+  height: 9vh;
+}
+
 /* About me */
 
 .about-me {
@@ -558,6 +656,10 @@ button:disabled {
   margin-left: 23px;
 }
 
+.popup-tech li + li {
+  margin-left: 8px;
+}
+
 /* Effects */
 
 .headline-list li:hover,
@@ -572,37 +674,4 @@ button:disabled {
 .contact-form input:hover,
 .contact-form textarea:hover {
   transform: translate(5px);
-}
-
-/* Popup */
-
-.popup {
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  backdrop-filter: blur(2.5px);
-}
-
-.popup-container {
-  margin: 10% 16px;
-  background-color: white;
-  height: 90%;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.popup-header {
-  align-items: center;
-}
-
-.popup-cancel-button {
-  height: min-content;
-}
-
-.popup-title {
-  margin-right: auto;
 }

@@ -33,7 +33,7 @@
 
 .headline {
   padding-top: 72px;
-  background-image: url("../img/bg_headline_desktop.svg");
+  background-image: url('../img/bg_headline_desktop.svg');
 }
 
 .headline-container {
@@ -172,7 +172,7 @@
 }
 
 .project:hover {
-  background: url("../img/bg_project1.svg") no-repeat;
+  background: url('../img/bg_project1.svg') no-repeat;
 }
 
 .project:hover > .project-container {
@@ -184,10 +184,81 @@
   opacity: 100%;
 }
 
+/* Popup */
+
+.popup-container {
+  margin: 10vh 5%;
+  /* height: 80vh; */
+}
+
+.popup-container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.popup-container3 {
+  display: flex;
+  padding-top: 40px;
+}
+
+.popup-tech-item {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.popup-img-container {
+  width: 60%;
+}
+
+.popup-desc-btns-container {
+  width: 40%;
+}
+
+.popup-header {
+  height: min-content;
+}
+
+.popup-tech {
+  margin-top: 10px;
+  height: min-content;
+}
+
+.popup-img-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  align-self: stretch;
+}
+
+.popup-desc-btns-container {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popup-desc {
+  line-height: 30px;
+}
+
+.popup-btns {
+  justify-content: flex-start;
+}
+
+.btn-source {
+  margin-left: 7px;
+}
+
+.popup-footer {
+  height: 10vh;
+}
+
 /* About me */
 
 .about-me-headline-container {
-  background: url("../img/bg_about-me_desktop.svg") right center no-repeat;
+  background: url('../img/bg_about-me_desktop.svg') right center no-repeat;
 }
 
 .about-me-headline {
