@@ -215,11 +215,14 @@
             <li class="border-bottom">
               <input type="text" name="user-name" placeholder="Full name" maxlength="30" required />
             </li>
-            <li class="border-bottom">
+            <li class="border-bottom" id="email-container">
               <input type="email" name="user-email" placeholder="Email address" required />
             </li>
             <li>
               <textarea name="msg" placeholder="Enter text here" maxlength="500" required></textarea>
+            </li>
+            <li>
+              <small id="error-msg"></small>
             </li>
             <li class="contact-form-button">
               <button class="button" type="submit">Get in touch</button>
@@ -273,5 +276,6 @@
     </footer>
     <script src="app.js"></script>
     <script src="popup.js"></script>
+    <script src="form-validation.js"></script>
   </body>
 </html>
