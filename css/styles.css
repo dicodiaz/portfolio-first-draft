@@ -123,15 +123,12 @@ a:visited {
 /* Headline */
 
 .headline {
-  height: 100vh;
-  padding-top: 46px;
-  background: #1c1a19 url('../img/bg_headline.svg') right bottom no-repeat;
+  min-height: calc(100vh - 46px);
+  background: #1c1a19 url('../img/bg_headline.svg') right bottom -45px no-repeat;
 }
 
 .headline-container {
-  display: flex;
-  flex-direction: column;
-  margin: 120px 6.4%;
+  padding: 120px 6.4%;
 }
 
 .headline-title {
