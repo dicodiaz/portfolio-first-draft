@@ -188,7 +188,6 @@
 
 .popup-container {
   margin: 10vh 5%;
-  /* height: 80vh; */
 }
 
 .popup-container2 {
@@ -208,14 +207,6 @@
   line-height: 20px;
 }
 
-.popup-img-container {
-  width: 60%;
-}
-
-.popup-desc-btns-container {
-  width: 40%;
-}
-
 .popup-header {
   height: min-content;
 }
@@ -226,6 +217,7 @@
 }
 
 .popup-img-container {
+  width: 60%;
   display: flex;
   align-items: flex-start;
   margin: 0;
@@ -233,6 +225,7 @@
 }
 
 .popup-desc-btns-container {
+  width: 40%;
   padding-left: 25px;
   display: flex;
   flex-direction: column;

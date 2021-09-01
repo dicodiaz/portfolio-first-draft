@@ -393,7 +393,7 @@ button:disabled {
 }
 
 .popup-title {
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -412,7 +412,7 @@ button:disabled {
 }
 
 .popup-tech-item {
-  font-family: Poppins;
+  font-family: Poppins, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -431,7 +431,7 @@ button:disabled {
 }
 
 .popup-desc {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
