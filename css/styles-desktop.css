@@ -83,7 +83,8 @@
 .works-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 120px 10% 0 10%;
+  padding: 135px 10% 0 10%;
+  min-height: 100vh;
 }
 
 .works-title {
@@ -104,13 +105,14 @@
 
 .works-img {
   width: 60%;
-  margin-top: 114px;
+  margin-top: 0;
+  align-self: flex-start;
 }
 
 .multi-post-stories {
   width: 40%;
-  margin-top: 114px;
   padding-left: 24px;
+  align-self: flex-start;
 }
 
 .works-subtitle {

@@ -64,7 +64,7 @@ const project7 = {
 
 const projects = [project1, project2, project3, project4, project5, project6, project7];
 const popup = document.querySelector('.popup');
-const projectButtons = document.querySelectorAll('.project-button');
+const projectButtons = document.querySelectorAll('#project-btn1,  .project-button');
 const popupTitle = document.querySelector('.popup-title');
 const popupImg = document.querySelector('.popup-img');
 const popupDesc = document.querySelector('.popup-desc');

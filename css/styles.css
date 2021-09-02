@@ -211,7 +211,7 @@ button:disabled {
 /* Works */
 
 .works-container {
-  margin: 120px 6% 0 6%;
+  padding: 120px 6.4% 0 6.4%;
 }
 
 .works-title {
@@ -277,7 +277,7 @@ button:disabled {
 }
 
 .projects {
-  margin: 24px 6.4% 120px 6.4%;
+  padding: 24px 6.4% 120px 6.4%;
   display: grid;
   grid-gap: 24px;
   grid-template-columns: auto;
@@ -354,10 +354,6 @@ button:disabled {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
   margin-right: 12px;
-}
-
-.project-button {
-  margin-top: 22px;
 }
 
 /* Popup */
