@@ -13,6 +13,6 @@ cancelButton.addEventListener('click', () => {
 
 menuItems.forEach((item) => {
   item.addEventListener('click', () => {
-    mobileMenu.classList.add('mt--100');
+    mobileMenu.classList.remove('mt--100');
   });
 });

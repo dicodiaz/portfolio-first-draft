@@ -39,8 +39,8 @@ function populateStorage() {
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 
-if (storageAvailable('localStorage')) {
-  name2.onchange = populateStorage;
+if (storageAvailable()) {
+  name2.onchange = populateStorage();
   email2.onchange = populateStorage;
   msg2.onchange = populateStorage;
 
