@@ -8,7 +8,6 @@ function isLowerCase(str) {
 }
 
 form.addEventListener('submit', (event) => {
-  console.log(!isLowerCase(email.value));
   if (!isLowerCase(email.value)) {
     errorMsg.innerText = ERROR_MESSAGE;
     email.classList.add('email-input-error');
