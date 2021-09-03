@@ -82,37 +82,41 @@
 
 .works-container {
   display: flex;
-  flex-wrap: wrap;
-  padding: 135px 10% 0 10%;
+  flex-direction: column;
+  padding: 0 10%;
   min-height: 100vh;
+  justify-content: space-evenly;
+}
+
+.works-container2 {
+  display: flex;
+  align-items: center;
 }
 
 .works-title {
-  width: fit-content;
-  margin: 0;
-  padding: 0 12px;
+  padding-bottom: 0;
   color: #091e42;
-}
-
-.works-black-line-container {
-  flex: 1 1 50%;
-  padding: 0 12px;
+  flex-basis: 40%;
 }
 
 .works-black-line {
-  margin: 25.5px 0;
+  flex-basis: 60%;
+}
+
+.works-container3 {
+  display: flex;
+  /* padding-top: 60px; */
 }
 
 .works-img {
-  width: 60%;
   margin-top: 0;
+  flex-basis: 60%;
   align-self: flex-start;
 }
 
 .multi-post-stories {
-  width: 40%;
+  flex-basis: 40%;
   padding-left: 24px;
-  align-self: flex-start;
 }
 
 .works-subtitle {
@@ -137,8 +141,7 @@
 }
 
 .projects {
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 24px 10% 130px 10%;
   grid-template-columns: auto auto auto;
   grid-row-gap: 37px;
 }
@@ -149,8 +152,8 @@
 }
 
 .project-container {
-  margin-top: auto;
-  margin-bottom: -70px;
+  padding-bottom: 16px;
+  margin-bottom: -48px;
   transition: all 0.5s ease-out;
 }
 
@@ -161,7 +164,6 @@
 
 .project-skill-list {
   margin-top: 24px;
-  margin-bottom: 16px;
 }
 
 .project-button {
@@ -249,11 +251,12 @@
 /* About me */
 
 .about-me-headline-container {
-  background: url('../img/bg_about-me_desktop.svg') right center no-repeat;
+  padding-top: 130px;
 }
 
 .about-me-headline {
-  margin: 0 51% 0 10%;
+  background: url('../img/bg_about-me_desktop.svg') right top no-repeat;
+  padding: 0 50.8% 0 10%;
 }
 
 .about-me-title {
@@ -267,39 +270,43 @@
 }
 
 .about-me-white-line {
-  margin: 139px 10% 0 10%;
+  margin: 48px 10%;
 }
 
 .about-me-lists {
-  margin: 0;
-  width: 100%;
-  padding: 10vh 10%;
+  padding: 54px 10% 142px 10%;
   flex-direction: row;
-  text-align: left;
-  justify-content: space-between;
+}
+
+.about-me-lang,
+.about-me-skills {
+  flex: 1;
+}
+
+.about-me-frame {
+  flex: 1.5;
 }
 
 /* Contact */
 
 .contact {
+  padding: 130px 10% 0 10%;
+  display: flex;
   flex-direction: row;
-  margin: 130px 10% 0 10%;
-  align-items: flex-start;
 }
 
 .contact-title {
-  width: 40%;
+  flex-basis: 40%;
   text-align: left;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   color: #262626;
-  padding-right: 24px;
 }
 
 .contact-form {
-  width: 60%;
-  margin: 0;
+  flex-basis: 60%;
+  padding-top: 0;
   padding-left: 24px;
 }
 
@@ -307,14 +314,8 @@
   font-family: Roboto, Arial, sans-serif;
 }
 
-.contact-form-button {
-  align-self: flex-start;
-}
-
-/* Footer */
-
-.footer {
-  padding-bottom: 26px;
+.contact-button {
+  justify-content: flex-start;
 }
 
 /* li + li */

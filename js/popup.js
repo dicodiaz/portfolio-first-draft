@@ -74,7 +74,7 @@ const popupSource = document.querySelector('.btn-source');
 
 projectButtons.forEach((item, i) => {
   item.addEventListener('click', () => {
-    popup.classList.remove('d-none');
+    popup.classList.remove('mt--110');
     popupTitle.innerHTML = projects[i].name;
     projects[i].technologies.forEach((tech) => {
       const li = document.createElement('li');
@@ -97,7 +97,7 @@ projectButtons.forEach((item, i) => {
 const cancelProjectButton = document.getElementById('popup-cancel-button');
 
 cancelProjectButton.addEventListener('click', () => {
-  popup.classList.add('d-none');
+  popup.classList.add('mt--110');
   document.querySelectorAll('.popup-tech-item').forEach((item) => {
     popupTech.removeChild(item);
   });
