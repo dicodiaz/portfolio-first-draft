@@ -13,6 +13,9 @@ This project consists in building my personal portfolio from scratch, choosing o
 5. Deploy the application in GitHub Pages.
 6. Evaluate accesibility.
 7. Build the mobile menu.
+8. Build the project details modal.
+9. Validate the contact form's email input.
+10. Preserve the contact form's inputs data.
 
 ## Mobile
 
