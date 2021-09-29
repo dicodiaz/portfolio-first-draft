@@ -1,11 +1,11 @@
 const project1 = {
-  name: 'Multi Post Stories1',
+  name: 'To Do List',
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
-  image: 'img/project-image.svg',
-  technologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-  live: 'http://dicodiaz.me/google-homepage/',
-  source: 'https://github.com/dicodiaz/google-homepage',
+    '"To-do list" is a simple tool that helps to organize your day. It allows the users to list the things that they need to do, mark them as complete, remove them, reorder them, and much more!',
+  image: 'img/to-do-list-screenshot.png',
+  technologies: ['JavaScript', 'Bootstrap'],
+  live: 'http://dicodiaz.me/to-do-list/dist/',
+  source: 'https://github.com/dicodiaz/to-do-list',
 };
 const project2 = {
   name: 'Multi Post Stories2',
